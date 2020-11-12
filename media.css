@@ -1,0 +1,123 @@
+@media screen and (max-width: 1024px){
+    .container {
+      padding: 0 1em;
+    }
+    .main-hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .main-hero h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
+    .main-hero .hero-img {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .header {
+      display: block;
+      height: auto;
+    }
+    .header ol {
+      display: block;
+    }
+    .header ol li {
+      height: 50px;
+    }
+    .header a {
+      justify-content: center;
+    }
+    .header figure {
+      text-align: center;
+    }
+  
+    .main-portfolio--project {
+      display: block;
+    }
+    .portfolio-project--details {
+      width: auto;
+      font-size: 16px;
+    }
+    .project-details--course, .project-details--date, .project-details--url {
+      margin: .3em 0;
+  
+    }
+    .project-details--title {
+      font-size: 1.5em;
+      margin-bottom: .3em;
+    }
+    .project-details--url {
+      font-size: 1em;
+    }
+    .project-details--course {
+      font-size: .7em;
+    }
+    .project-details--date {
+      font-size: 1em;
+    }
+    .project-details--description {
+      font-size: .8em;
+    }
+    .project-details--img {
+      width: auto;
+      text-align: center;
+    }
+    .project-details--course, .project-details--date, .project-details--url {
+      margin: .3em 0;
+    }
+    .event {
+      width: auto;
+      flex-shrink: initial;
+    }
+    .event img  {
+      width: 100%;
+      max-height: 250px;
+      object-position: 25% 25%;
+    }
+   
+  }
+  
+  @media screen and (max-width: 480px){
+      .main-hero h1 {
+         font-size: 1.5em; 
+      }
+    .portfolio-project--details {
+      width: auto;
+      font-size: 12px;
+    }
+    .event--detail {
+      margin: -2em .5em .5em;
+      padding: 1em;
+    }
+    .main-contact {
+      height: auto;
+      padding: 1em 0;
+      text-align: center;
+      display: block;
+    }
+    .main-form button {
+      margin: 1em auto;
+    }
+    .main-form h3 {
+      margin-top: 0;
+    }
+    .footer {
+      display: block;
+      text-align: center;
+      border: 1px solid transparent;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+  
+  }
