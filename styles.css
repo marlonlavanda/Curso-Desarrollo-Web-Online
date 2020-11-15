@@ -37,6 +37,19 @@ h2 {
   margin-bottom: 40px;
 }
 
+.burguer-menu {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+}
+
+.ri-menu-line {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z'/%3E%3C/svg%3E");
+  border-radius: 50%;
+ 
+
+}
+
 .header {
   background-color: #1d252c;
   color: white;
