@@ -24,6 +24,9 @@
   }
   
   @media screen and (max-width: 767px) {
+    .burguer-button {
+      display: block;
+    }
     .header {
       display: block;
       height: auto;
@@ -84,7 +87,7 @@
       max-height: 250px;
       object-position: 25% 25%;
     }
-   
+    
   }
   
   @media screen and (max-width: 480px){

@@ -2,6 +2,37 @@
   margin: 0;
   padding: 0;
 } */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tc7q2y');
+  src:  url('../fonts/icomoon.eot?tc7q2y#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tc7q2y') format('truetype'),
+    url('../fonts/icomoon.woff?tc7q2y') format('woff'),
+    url('../fonts/icomoon.svg?tc7q2y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
@@ -15,6 +46,7 @@ h5,
 h6 {
   font-family: 'Fjalla One', sans-serif;
 }
+
 h1 {
   font-size: 40px;
   line-height: 1.5;
@@ -37,17 +69,19 @@ h2 {
   margin-bottom: 40px;
 }
 
-.burguer-menu {
-  background-color: black;
-  width: 80px;
-  height: 80px;
-}
-
-.ri-menu-line {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z'/%3E%3C/svg%3E");
+.burguer-button {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
- 
-
+  background-color: rgba(red, green, blue, .8);
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
 }
 
 .header {
