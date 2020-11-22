@@ -26,6 +26,22 @@
   @media screen and (max-width: 767px) {
     .burguer-button {
       display: block;
+    } 
+    .header-menu {
+      position: fixed; /*Esto hace que el menu hamburguesa se despliegue*/
+      background: #056fff;
+      z-index: 3;
+      top: 0;
+      left: -100vw;
+      width: 100vw;
+      /* height: 100vh; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .3s;
+    }
+    .header-menu.is-active {
+      left: 0;
     }
     .header {
       display: block;
@@ -39,11 +55,14 @@
     }
     .header a {
       justify-content: center;
+      height:40px ;
+      font-size: 2em;
+      text-decoration: underline;
+      margin-bottom: .5em;
     }
     .header figure {
       text-align: center;
     }
-  
     .main-portfolio--project {
       display: block;
     }
@@ -88,7 +107,9 @@
       object-position: 25% 25%;
     }
     
+  
   }
+    
   
   @media screen and (max-width: 480px){
       .main-hero h1 {
@@ -119,7 +140,7 @@
       text-align: center;
       border: 1px solid transparent;
     }
-  }
+    
   
   @media screen and (max-width: 320px){
     h1 {

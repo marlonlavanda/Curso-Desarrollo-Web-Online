@@ -85,7 +85,7 @@ h2 {
 }
 
 .header {
-  background-color: #1d252c;
+  background-color: #1b2127;
   color: white;
   display: flex; /*Esto hace que el logo y el nava se coloquen de forma horizontal*/
   justify-content: space-between; /*Esto hace que el logo y el nav se vayan a cada extremo*/
